@@ -13,7 +13,7 @@ const BenefitContainer = () => {
 
                 <div className="flex flex-row  justify-left gap-6">
                     <TextBox children={<>
-                        <i class="fas fa-chain"></i>
+                        <i className="fas fa-chain"></i>
 
                         <p className=" text-base text-gray-500 font-bold">Amplify Insights</p>
                         <p className=" text-xs text-gray-400 ">Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>

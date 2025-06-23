@@ -58,7 +58,7 @@ const BigPicture = () => {
                     } gap='gap-1' my='my-2' />
                    <Button/> 
                 </div>
-                <img src={picture} alt="" width='max-w-7xl' />
+                <img src={picture} alt="Picture" width='max-w-7xl' />
             </div>
         </>
     )
