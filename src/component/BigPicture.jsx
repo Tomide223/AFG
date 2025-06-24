@@ -1,14 +1,14 @@
 import React from 'react'
 import TextBox from '../tools/TextBox'
-import picture from '../assets/picture.jpg'
+
 import Button from '../tools/button'
-import Button from './button'
+
 import ImageSlider from './ImageSlider'
 
 const BigPicture = () => {
     return (
         <>
-            <div className="flex flex-row min-h-screen  bg-white mx-60">
+            <div className="flex flex-row min-h-screen  bg-white mx-40">
                 <div className="flex flex-col justify-left">
                     <TextBox children={
                         <>
@@ -22,46 +22,46 @@ const BigPicture = () => {
                         <>
                             <div className='flex flex-row gap-4'>
                                 <p className='text-gray-300 text-sm font-medium'>01</p>
-                                <p className="text-sm text-black font-thin ">Spot Trends in Seconds: No more digging through numbers. </p>
+                                <p className="text-xs text-black font-thin ">Spot Trends in Seconds: No more digging through numbers. </p>
 
                             </div>
                         </>
 
 
-                    } gap='gap-1' my='my-2' />
+                    } gap='gap-2' my='my-2' />
                     <TextBox children={
                         <>
                             <div className='flex flex-row gap-4'>
                                 <p className='text-gray-300 text-sm font-medium'>02</p>
-                                <p className=" text-sm text-black font-thin ">Get Everyone on the Same Page: Share easy-to-understand reports with your team.  </p>
+                                <p className=" text-xs text-black font-thin ">Get Everyone on the Same Page: Share easy-to-understand reports with your team.  </p>
 
                             </div>
                         </>
 
 
-                    } gap='gap-1' my='my-2' />
+                    } gap='gap-2' my='my-2' />
                     <TextBox children={
                         <>
                             <div className='flex flex-row gap-4'>
                                 <p className='text-gray-300 text-sm font-medium'>03</p>
-                                <p className=" text-sm text-black font-thin ">Make Presentations Pop: Interactive maps and dashboards keep your audience engaged. </p>
+                                <p className=" text-xs text-black font-thin ">Make Presentations Pop: Interactive maps and dashboards keep your audience engaged. </p>
 
                             </div>
                         </>
-                    } gap='gap-1' my='my-2' />
+                    } gap='gap-2' my='my-2' />
                     <TextBox children={
                         <>
                             <div className='flex flex-row gap-4'>
                                 <p className='text-gray-300 text-sm font-medium'>04</p>
-                                <p className=" text-sm text-black font-thin ">Your Global Snapshot: Get a quick, clear overview of your entire operation. </p>
+                                <p className=" text-xs text-black font-thin ">Your Global Snapshot: Get a quick, clear overview of your entire operation. </p>
 
                             </div>
                         </>
-                    } gap='gap-1' my='my-2' />
-                   <Button/> 
+                    } gap='gap-2' my='my-2' />
+                    <Button />
                 </div>
-                <ImageSlider/>
-                {/* <img src={picture} alt="Picture" width='max-w-7xl' /> */}
+                <ImageSlider />
+
             </div>
         </>
     )

@@ -7,7 +7,7 @@ import hills from '../assets/hills.png'
 const BenefitContainer = () => {
     return (
         <>
-            <div className="min-h-screen flex flex-col bg-white mx-60   ">
+            <div className="min-h-screen flex flex-col bg-white mx-40  ">
 
                 <TextBox />
 
@@ -42,7 +42,10 @@ const BenefitContainer = () => {
                     } gap="gap-4" />
 
                 </div>
-                <img src={hills} alt="Hills picture" />
+                <div className='w-[740] h-[600]  mb-5 rounded-[24px]'>
+                    <img src={hills} alt="Hills picture" className="w-full h-full object-cover" />
+                </div>
+
             </div>
         </>
     )

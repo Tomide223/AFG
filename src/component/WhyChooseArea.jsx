@@ -1,15 +1,17 @@
 import React from 'react';
+import DiscoverButton from '../tools/button'
 
-const WhyChooseArea = ({ DiscoverButton }) => {
+const WhyChooseArea = ({  }) => {
   return (
     <div className="max-w-7xl mx-auto px-5 py-20 text-[#333] font-sans">
       <div className="text-center mb-16">
+        <footer className='text-gray-300 border-b-2 mb-14'> </footer>
         <h1 className="text-4xl md:text-5xl font-semibold text-[#1a1a1a] mb-5">Why Choose Area?</h1>
         <p className="text-base text-[#666] max-w-xl mx-auto mb-8 leading-relaxed">
           You need a solution that keeps up. That's why we developed Area. A developer-friendly approach to streamlining your business.
         </p>
         <div className="flex justify-center">
-          {DiscoverButton}
+          <DiscoverButton/>
         </div>
       </div>
 
