@@ -1,7 +1,7 @@
 import React from 'react'
-import TextBox from './TextBox'
+import TextBox from '../tools/TextBox'
 import picture from '../assets/picture.jpg'
-import Button from './button'
+import Button from '../tools/button'
 
 const BigPicture = () => {
     return (

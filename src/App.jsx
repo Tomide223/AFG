@@ -1,13 +1,11 @@
-import { useState } from 'react'
 import BenefitContainer from './component/benefitContainer'
 import BigPicture from './component/BigPicture'
-import WhyChoose from './component/whyChoose'
-import Hero from './component/hero'
-import Testmonials from './component/testmonials'
-import SuccessMap from './component/successMap'
 import EfficencyHero from './component/EfficiencyHero'
 import Navbar from './component/Navbar'
 import TrustedBy from './component/TrustedBy'
+import MapSuccess from './component/MapSuccess'
+import WhyChooseArea from './component/WhyChooseArea'
+import TestmonialCard from './component/TestimonialCard'
 function App() {
 
 
@@ -18,10 +16,9 @@ function App() {
       <TrustedBy />
       <BenefitContainer />
       <BigPicture />
-      <WhyChoose/>
-      <Hero/>
-      <Testmonials/>
-      <SuccessMap/>
+      <WhyChooseArea/>
+      <TestmonialCard/>
+      <MapSuccess/> 
     </>
   )
 }
