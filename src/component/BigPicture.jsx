@@ -12,8 +12,8 @@ const BigPicture = () => {
                 <div className="flex flex-col justify-left">
                     <TextBox children={
                         <>
-                            <p className='text-black text-5xl font-medium'>See the Big Picture</p>
-                            <p className=" text-xs text-gray-400 ">Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</p>
+                            <p className='text-black text-5xl font-times font-medium'>See the Big Picture</p>
+                            <p className=" text-xs font-sans text-gray-400 ">Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</p>
                         </>
 
 

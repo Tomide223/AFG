@@ -15,29 +15,29 @@ const BenefitContainer = () => {
                     <TextBox children={<>
                         <i className="fas fa-chain"></i>
 
-                        <p className=" text-base text-gray-500 font-bold">Amplify Insights</p>
-                        <p className=" text-xs text-gray-400 ">Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>
+                        <p className=" text-base  font-times font-bold">Amplify Insights</p>
+                        <p className=" text-xs font-sans text-gray-400 ">Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>
 
                     </>
                     } gap="gap-4" />
                     <TextBox children={<>
                         <i class="fas fa-earth-americas"></i>
 
-                        <p className=" text-base text-gray-500 font-bold">Control Your Global Presence</p>
-                        <p className=" text-xs text-gray-400 ">Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.</p>
+                        <p className=" text-base   font-times font-bold">Control Your Global Presence</p>
+                        <p className=" text-xs font-sans text-gray-400 ">Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.</p>
                     </>
                     } gap="gap-4" />
                     <TextBox children={<>
                         <i class="fas fa-user"></i>
 
-                        <p className=" text-base text-gray-500 font-bold">Remove Language Barriers</p>
-                        <p className=" text-xs text-gray-400 ">Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.</p>
+                        <p className=" text-base   font-times font-bold">Remove Language Barriers</p>
+                        <p className=" text-xs font-sans text-gray-400 ">Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.</p>
                     </>
                     } gap="gap-4" />
                     <TextBox children={<>
                         <i class="fas fa-chart-line"></i>
-                        <p className=" text-base text-gray-500 font-bold">Visualize Growth</p>
-                        <p className=" text-xs text-gray-400 ">Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
+                        <p className=" text-base   font-times font-bold">Visualize Growth</p>
+                        <p className=" text-xs font-sans text-gray-400 ">Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
                     </>
                     } gap="gap-4" />
 
