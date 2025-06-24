@@ -2,6 +2,8 @@ import React from 'react'
 import TextBox from '../tools/TextBox'
 import picture from '../assets/picture.jpg'
 import Button from '../tools/button'
+import Button from './button'
+import ImageSlider from './ImageSlider'
 
 const BigPicture = () => {
     return (
@@ -58,7 +60,8 @@ const BigPicture = () => {
                     } gap='gap-1' my='my-2' />
                    <Button/> 
                 </div>
-                <img src={picture} alt="Picture" width='max-w-7xl' />
+                <ImageSlider/>
+                {/* <img src={picture} alt="Picture" width='max-w-7xl' /> */}
             </div>
         </>
     )
