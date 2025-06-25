@@ -45,7 +45,7 @@ const MapYourSuccess = () => {
         </div>
       </div>
 
-      <div className="w-full h-[300px] md:h-[400px] bg-gradient-to-br from-indigo-400 to-purple-600 rounded-[24px] shadow-2xl overflow-hidden">
+      <div className="w-full h-[300px] md:h-[400px] bg-gradient-to-br from-indigo-400 to-purple-600 rounded-[24px] ">
         <img src={pic} alt="Landscape placeholder"
           className="w-full h-full object-cover rounded-[24px]" />
       </div>
