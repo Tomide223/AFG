@@ -1,4 +1,4 @@
-import React from "react";
+
 import pic from "../assets/MapYourSuccess.png";
 import Button from "../components/button";
 const MapYourSuccess = () => {

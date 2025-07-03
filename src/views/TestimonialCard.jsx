@@ -1,6 +1,6 @@
-import React from 'react';
+
 import pic from '../assets/hero.png'
-import Image_2 from '../assets/mapYourSuccess.png'
+
 
 const TestimonialCard = () => {
   return (

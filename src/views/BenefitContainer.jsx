@@ -1,4 +1,4 @@
-import React from "react";
+
 import TextBox from "../components/TextBox";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import hills from "../assets/hills.png";

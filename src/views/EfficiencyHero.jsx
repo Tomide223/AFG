@@ -1,4 +1,4 @@
-import React from "react";
+
 import StatChart from "../assets/StatChart.png";
 const Hero = () => {
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+
 import DiscoverButton from "../components/button";
 
 const WhyChooseArea = ({}) => {
