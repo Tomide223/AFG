@@ -1,7 +1,7 @@
 import  { useState } from "react"
 import Image_1 from '../assets/hero.png'
-import Image_2 from '../assets/mapYourSuccess.png'
-import Image_3 from '../assets/statChart.png'
+import Image_2 from '../assets/MapYourSuccess.png'
+import Image_3 from '../assets/StatChart.png'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 const images = [
