@@ -1,4 +1,4 @@
-import BenefitContainer from "./views/benefitContainer";
+import BenefitContainer from './views/BenefitConatiner'
 import BigPicture from "./views/BigPicture";
 import EfficencyHero from "./views/EfficiencyHero";
 import Navbar from "./views/Navbar";
