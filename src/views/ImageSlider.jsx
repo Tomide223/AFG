@@ -17,7 +17,7 @@ const ImageSlider = () => {
   const prevSlide = () => setCurrent((current - 1 + total) % total);
 
   return (
-    <div className="relative w-[600px] h-[684px] mx-auto overflow-hidden rounded-[24px] border border-white ">
+    <div className="relative max-w-7xl mx-auto  overflow-hidden rounded-[24px] border border-white ">
        <button onClick={prevSlide} className="absolute right-2 top-8  w-10 h-10 bg-white px-3 py-1 ml-2 rounded-[12px] shadow ">
          <i className="fas fa-angle-right"></i>
 
